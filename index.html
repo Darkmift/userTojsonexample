@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>user to json</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="https://pre11.deviantart.net/3944/th/pre/i/2012/122/6/9/cookie_monster_by_neorame-d4yb0b5.png" />
+  <!--bootstrap-->
+  <!--END OF HTML HERE-->
+  <!--Jquery(Bootstrap dependency)-->
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <!--Bootstrap Plugins-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <!--Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="panel panel-default ">
+          <div class="panel-heading">
+            <h4 class="text-center" style="margin:0;padding:0;">Create user send to json</h4>
+          </div>
+          <div class="panel-body panel-flexfix">
+            <form id="form" method="POST" class="align-items-center" action="userToJson.php">
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon">username</span>
+                  <input name="username" class="form-control" placeholder="insert username" type="text">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon">email</span>
+                  <input name="email" class="form-control" placeholder="insert email" type="email">
+                </div>
+              </div>
+              <div class="form-group text-center">
+                <button style="width:75%" id="subBtn" name="singlebutton" class="btn btn-default">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
